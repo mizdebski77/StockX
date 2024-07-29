@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from '../features/home';
+import { Home } from '../features/Home/home';
 
 function App() {
   return (
