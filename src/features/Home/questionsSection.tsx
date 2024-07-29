@@ -1,4 +1,5 @@
 import React from 'react';
+import payment from '../../common/Images/payment.svg';
 
 export const QuestionsSection = () => {
     const questions = [
@@ -7,17 +8,20 @@ export const QuestionsSection = () => {
         { title: 'Why do we need your billing information?', article: "By joining this service, you will receive a 5-day trial of our partner's program. If you continue with a subscription beyond the 5-day trial period, you will be charged an amount on your credit card which varies depending on the choice of the tariff. When your contribution is deducted from your credit card or other payment method, you will have access to these services which are reserved exclusively for members of our partner's website." }
     ]
     return (
-        <section className='grid grid-cols-3 gap-8 w-full bg-[#F5F5F5] px-4 py-6 mt-12'>
-            {questions.map((question) => (
-                <div key={question.title} className=''>
-                    <span className='text-base font-semibold'>{question.title}</span>
-                    <p className='text-[10px]'>{question.article}</p>
-                </div>
-            ))}
+        <section className=' w-full  mt-12'>
+            <div className='bg-[#F5F5F5] grid grid-cols-3 px-4 py-6  gap-8'>
+                {questions.map((question) => (
+                    <div key={question.title} className=''>
+                        <span className='text-base font-semibold'>{question.title}</span>
+                        <p className='text-[10px]'>{question.article}</p>
+                    </div>
+                ))}
 
-            <div>
-                <p>We accept the following credit cards</p>
-                
+            </div>
+
+            <div className='grid items-center'>
+                <p className='text-center mt-4 text-base mb-1'>We accept the following credit cards</p>
+                <img src={payment} alt='payment' className='max-w-[1200px] w-full' />
             </div>
 
         </section>
