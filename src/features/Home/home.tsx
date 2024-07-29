@@ -5,7 +5,7 @@ import { QuestionsSection } from './questionsSection';
 
 export const Home = () => {
     return (
-        <main className='border border-black max-w-[1232px] m-auto'>
+        <main className='border border-black max-w-[1232px] m-auto py-4'>
             <Header />
             <TopItemsSection />
             <QuestionsSection/>

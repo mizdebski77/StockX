@@ -2,13 +2,17 @@ import React from 'react';
 import bit from '../../common/Images/bit.svg';
 import mcAfee from '../../common/Images/mcAfee.svg';
 import truste from '../../common/Images/truste.svg';
-
+import header1 from '../../common/Images/Header/header1.svg';
+import price from '../../common/Images/Header/price.svg';
 
 export const Header = () => {
     return (
-        <header className='grid grid-cols-2'>
-            <div>react</div>
-            <div className='mt-1'>
+        <header className='flex justify-center gap-[21px] items-center ml-[27px] '>
+            <div className='relative'>
+                <img src={price} alt='price' className='absolute top-[-45px] right-[-44px] max-w-60 w-full'/>
+                <img src={header1} alt='header 1' className='max-w-[481px] w-full' />
+            </div>
+            <div className='max-w-[687px] w-full'>
                 <div className='text-darkGreen'>
                     <h1 className='text-[52px] font-extrabold leading-[55px] mb-2'>Chance to win a StockX <p className='m-0'>Mystery Box today!</p></h1>
                     <span className='text-[22px] font-normal leading-[25.78px]'>Unleash the Excitement of Mystery Electronics</span>
