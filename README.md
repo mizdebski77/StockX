@@ -9,10 +9,6 @@ This repository contains the source code for a React-based landing page for the 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 - ## Demo
 - [Application Demo](https://mizdebski77.github.io/StockX/)
