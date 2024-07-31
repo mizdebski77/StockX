@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
 import bit from '../../../common/Images/bit.svg';
 import mcAfee from '../../../common/Images/mcAfee.svg';
 import truste from '../../../common/Images/truste.svg';
-import header1 from '../../../common/Images/Header/header1.svg';
-import price from '../../../common/Images/Header/price.svg';
 import { Carousel } from './carousel';
 
 
