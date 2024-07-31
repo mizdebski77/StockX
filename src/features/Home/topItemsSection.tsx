@@ -22,7 +22,7 @@ export const TopItemsSection = () => {
 
             <div className='grid md:grid-cols-2 items-center px-4 mt-8' >
                 <div className='text-center md:text-left'>
-                    <h4 className='text-[42px] font-bold mb-8'>Why is everyone buzzing<p className='m-0'>  about these boxes?</p></h4>
+                    <h4 className='md:text-[42px]  text-3xl font-bold mb-8'>Why is everyone buzzing<p className='m-0'>  about these boxes?</p></h4>
                     <p className='text-darkGreen mb-2'>StockX Mystery Boxes are not just about products; they’re about the experience. Imagine the excitement of unveiling top-tier electronics at a fraction of the cost.</p>
                     <p className='text-darkGreen'>Our boxes include a variety of premium tech items, making it a must-have for every tech enthusiast. Join the buzz and see why everyone is raving about the unbeatable value and surprise factor of Stockx Mystery Boxes!</p>
                 </div>
