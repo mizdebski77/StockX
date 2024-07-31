@@ -15,22 +15,20 @@ export const Carousel = () => {
 
     return (
         <div className="flex flex-col items-center relative">
-
             <div className="mb-4 bg-green absolute m-auto rounded-full flex flex-col justify-center items-center py-[45px] px-5 gap-2 md:w-40 w-32 md:max-h-40 max-h-32 md:top-[-16px] right-[0px]">
                 <span className='font-bold md:text-[38px] text-[#ffffff]'>$1.99</span>
                 <span className='font-normal md:text-[14px] text-sm text-[#ffffff]'>Original value $500</span>
             </div>
-
-            <div className="mb-4 w-full grid ">
+            <div className="mb-4 w-full grid">
                 <img src={mainImg} alt='header 1' className='md:w-[481px] w-72 md:h-[480px] h-72 m-auto' />
             </div>
-            <div className='flex md:justify-between justify-around w-full'>
+            <div className='flex justify-center gap-8 xl:gap-0 xl:justify-between w-full'>
                 {thumbnails.map((thumbnail, index) => (
                     <img
                         key={index}
                         src={thumbnail}
                         alt={`Thumbnail ${index + 1}`}
-                        className="w-full xl:max-w-[132px]  max-w-16 h-auto object-cover cursor-pointer border-2 border-green hover:border-blue-500 rounded-xl"
+                        className="w-full xl:max-w-[132px] max-w-16 h-auto object-cover cursor-pointer border-2 border-green hover:border-blue-500 rounded-xl"
                         onClick={() => handleThumbnailClick(thumbnail)}
                     />
                 ))}
