@@ -12,10 +12,7 @@ export const Header = () => {
     return (
         <header className='flex justify-center gap-[21px] items-center ml-[27px] '>
             <Carousel />
-            <div className='relative'>
-                <img src={price} alt='price' className='absolute top-[-45px] right-[-44px] max-w-60 w-full' />
 
-            </div>
 
             <div className='max-w-[687px] w-full'>
                 <div className='text-darkGreen'>
