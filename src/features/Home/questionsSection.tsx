@@ -10,7 +10,7 @@ export const QuestionsSection = () => {
     ]
     return (
         <section className=' w-full  mt-12'>
-            <div className='bg-[#F5F5F5] grid grid-cols-3 px-4 py-6  gap-8'>
+            <div className='bg-[#F5F5F5] grid md:grid-cols-3 md:text-left text-center px-4 py-6  gap-8'>
                 {questions.map((question) => (
                     <div key={question.title} className=''>
                         <span className='text-base font-semibold'>{question.title}</span>
