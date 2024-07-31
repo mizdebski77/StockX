@@ -6,10 +6,9 @@ import img4 from '../../../common/Images/Header/Carousel/img4.svg';
 
 export const Carousel = () => {
     const [mainImg, setMainImg] = useState(img1);
-    const [thumbnails, setThumbnails] = useState([img2, img3, img4]);
+    const [thumbnails] = useState([img2, img3, img4]);
 
     const handleThumbnailClick = (clickedThumbnail: string) => {
-        setThumbnails(thumbnails.map(thumbnail => (thumbnail === clickedThumbnail ? mainImg : thumbnail)));
         setMainImg(clickedThumbnail);
     };
 
