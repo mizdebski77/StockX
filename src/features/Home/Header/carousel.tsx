@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import img1 from '../../common/Images/Header/Carousel/img1.svg';
-import img2 from '../../common/Images/Header/Carousel/img2.svg';
-import img3 from '../../common/Images/Header/Carousel/img3.svg';
-import img4 from '../../common/Images/Header/Carousel/img4.svg';
+import img1 from '../../../common/Images/Header/Carousel/img1.svg';
+import img2 from '../../../common/Images/Header/Carousel/img2.svg';
+import img3 from '../../../common/Images/Header/Carousel/img3.svg';
+import img4 from '../../../common/Images/Header/Carousel/img4.svg';
 
-const Carousel = () => {
+export const Carousel = () => {
     const [mainImg, setMainImg] = useState(img1);
     const thumbnails = [img1, img2, img3, img4];
 
@@ -30,4 +30,3 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
