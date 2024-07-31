@@ -15,7 +15,7 @@ export const TopItemsSection = () => {
             <div className='grid md:grid-cols-2 items-center px-4 mt-8 gap-8'>
                 <img src={img} alt='mystery box' className='max-w-[583px] w-full' />
                 <div className='text-center md:text-left'>
-                    <h3 className='md:text-[42px] text-3xl font-bold mb-8 md:text-left text-center'>
+                    <h3 className='md:text-[42px] text-darkGreen text-3xl font-bold mb-8 md:text-left text-center'>
                         Curious about the <span className='text-[#006340]'>StockX</span>
                         <p className='m-0'> Mystery Box?</p>
                     </h3>
@@ -29,7 +29,7 @@ export const TopItemsSection = () => {
             </div>
             <div className='grid md:grid-cols-2 items-center px-4 mt-9 gap-8'>
                 <div className='text-center md:text-left'>
-                    <h4 className='md:text-[42px] text-3xl font-bold mb-8'>
+                    <h4 className='md:text-[42px] text-3xl font-bold mb-8 text-darkGreen'>
                         Why is everyone buzzing
                         <p className='m-0'> about these boxes?</p>
                     </h4>

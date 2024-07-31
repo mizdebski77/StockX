@@ -28,7 +28,7 @@ export const QuestionsSection = () => {
                 ))}
             </div>
             <div className='grid items-center'>
-                <p className='text-center mt-4 text-xs mb-1'>We accept the following credit cards</p>
+                <p className='text-center mt-4 text-xs mb-1 text-darkGreen'>We accept the following credit cards</p>
                 <img src={payment} alt='payment' className='max-w-[1200px] w-full' />
             </div>
         </section>
